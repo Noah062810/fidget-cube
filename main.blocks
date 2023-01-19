@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="0:XDv.FzB:uQifHVT8)(" x="20" y="20"><statement name="HANDLER"><block type="basic_show_icon" id="2v.o7(nkDod-[Dd%DEo9"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_button_event" id="n53gXo0s-jS~JebR:L6`" x="308" y="8"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="/;]yY^e;z%{o57,utJ%7"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_button_event" id="_+?GFGui$3_1Xx4.?mc8" x="15" y="208"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="FU+*a3fa%xRSVlR/IUKh"><field name="i">IconNames.Yes</field></block></statement></block><block type="device_button_event" id="Yb#ho*xS6(1-E]GaD;to" x="313" y="210"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="r@l,]G?K;8zu:+U;CzX$"><value name="text"><shadow type="text" id="}W`Jr9FjI({$yl+#)%y@"><field name="TEXT">HI!</field></shadow></value></block></statement></block><block type="device_gesture_event" id="Q2sss7-pu_FJ|)j@B(}0" x="49" y="396"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="kJIG?a[^P%:`CBiRQ:w-"><value name="text"><shadow type="text" id="l*4!3TEBXt]Jrlojj-yQ"><field name="TEXT">WOAH!</field></shadow></value></block></statement></block><block type="device_gesture_event" id="abK~z/=v.rubw!KJC2Dq" x="368" y="380"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="AEpAp9wK}9o!SOZ03v6T"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . # . . 
+        . . . # .
+        `</field></block></statement></block><block type="device_gesture_event" id="EuyLic7B{*Ad*4Kqj;^I" x="627" y="367"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="0[@%=DMx~wEe+lK_-R^/"><field name="LEDS">`
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . # . . 
+        . # . . .
+        `</field></block></statement></block></xml>
