@@ -3,11 +3,11 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onGesture(Gesture.TiltLeft, function () {
     basic.showLeds(`
-        . . . # .
-        . . # . .
         . # . . .
         . . # . .
         . . . # .
+        . . # . .
+        . # . . .
         `)
 })
 input.onButtonPressed(Button.AB, function () {
@@ -21,11 +21,11 @@ input.onGesture(Gesture.Shake, function () {
 })
 input.onGesture(Gesture.TiltRight, function () {
     basic.showLeds(`
-        . # . . .
-        . . # . .
         . . . # .
         . . # . .
         . # . . .
+        . . # . .
+        . . . # .
         `)
 })
 basic.showIcon(IconNames.Heart)
